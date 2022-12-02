@@ -12,3 +12,5 @@ eureka:
     #Если Eureka Server не видел обновления в течение 70 секунд, он удаляет экземпляр из своего реестра
     lease-expiration-duration-in-seconds: 70
     instance-id: ${spring.application.name}:${random.value}
+    
+tmpVar=1254
